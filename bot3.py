@@ -10,9 +10,8 @@ import pytz
 from datetime import timezone
 
 # === 🔑 Ключи ===
-TELEGRAM_TOKEN = "8258240783:AAETbks3UWYxaZvFOeUacJJSx6dIA_IUZ6s"
-WEATHER_API_KEY = "3b88ff8c21e0497fa6274058251510"
-
+TELEGRAM_TOKEN = "your_token_boat_is_BotFather"
+WEATHER_API_KEY = "your_API_key_с_weatherapi.com"
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 DATA_FILE = "users.json"
 
@@ -345,4 +344,5 @@ if __name__ == "__main__":
     
     # Запускаем бота
     print("Бот запущен...")
+
     bot.infinity_polling()
