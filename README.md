@@ -4,7 +4,7 @@ Register for https://openweathermap.org/api
 And get API-key.
 Create a Telegram bot via @BotFather and → receive a Telegram Token.
 Installation instructions: Install Python. Install VS Code. Install the Python extension (by Microsoft). Create a project (folder/path) for example: C:\Users\<твоё_имя>\Documents\weather_bot. Place the file in this folder bot3.py . Install VS libraries via the VS terminal: pip install pyTelegramBotAPI requests.  
-To insert the bot code: Copy the entire code (@BotFather and API-key) and paste in a file bot3.py: TELEGRAM_TOKEN = "your_token_boat_is_BotFather" WEATHER_API_KEY = "твой_API_ключ_с_weatherapi.com " and Save the file (Ctrl +S)
+To insert the bot code: Copy the entire code (@BotFather and API-key) and paste in a file bot3.py to the lines: TELEGRAM_TOKEN = "your_token_boat_is_BotFather" WEATHER_API_KEY = "your_API_key_from the_weatherapi.com " and Save the file (Ctrl +S)
 Launch the bot In VS Code: open the terminal, enter: python bot3.py
 If everything is OK, the terminal will display: Polling started... (or just nothing — this is normal)
 Now open Telegram, find your bot (by the name given by BotFather), and write to it: /start, Then the name of the city, and the bot should answer you with a beautiful weather forecast.
